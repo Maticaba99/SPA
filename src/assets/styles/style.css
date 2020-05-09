@@ -167,4 +167,7 @@ body {
   .Characters {
     justify-content: center;
   }
+  .Main {
+    margin: 10px 10px;
+  }
 }
