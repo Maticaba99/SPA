@@ -14,12 +14,14 @@ const Home = async () => {
              alt="${character.name}">
             <h2>${character.name}</h2>
           </a>
+          
         </article>
     
         `
           )
           .join("")}
           </div>
+     
     
     `;
   return view;

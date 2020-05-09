@@ -163,3 +163,8 @@ body {
     align-items: center;
   }
 }
+@media (max-width: 800px) {
+  .Characters {
+    justify-content: center;
+  }
+}
