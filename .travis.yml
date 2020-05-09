@@ -11,9 +11,8 @@ script:
 deploy:
   provider: pages
   edge: true,
-  skip-cleanup: true
   keep-history: true
-  githubtoken: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN
   local-dir: dist/
   target-branch: gh-pages
   commit_message: "Deploy Release"
