@@ -1,4 +1,6 @@
 language: node_js
+os:
+  - linux
 cache:
   directories:
     - ~/.npm
@@ -9,7 +11,8 @@ git:
 script:
   - yarn build
 deploy:
-  provider: pages
+  provider: pages,
+  strategy: git,
   edge: true,
   keep-history: true
   github_token: $GITHUB_TOKEN
